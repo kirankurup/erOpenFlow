@@ -1,0 +1,16 @@
+{application, erOpenFlow,
+ [{description, "Erlang library implementing OpenFlow Switch Protocol"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib,
+    lager
+   ]},
+  {env,[]},
+  {modules, [flow_connection_listeners, flow_switch_handlers]},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
